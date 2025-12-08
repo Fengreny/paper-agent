@@ -79,8 +79,8 @@ mindmap
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/your-username/DeepResearch-Agent.git
-cd DeepResearch-Agent
+git clone https://github.com/Fengreny/paper-agent
+cd paper-agent
 ```
 
 ### 2. 安装依赖
