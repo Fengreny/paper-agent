@@ -1,2 +1,11 @@
+langchain
+langchain-openai
+langchain-community
+langgraph
 pypdf
-
+tavily-python
+python-dotenv
+tiktoken
+pydantic
+openai
+duckduckgo-search
