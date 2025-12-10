@@ -1,7 +1,7 @@
 # 🧠 Paper-Agent: 深度论文研读智能体
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![LangChain](https://img.shields.io/badge/LangChain-v0.1-green)
+![LangChain](https://img.shields.io/badge/LangChain-v1.0-green)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agent-orange)
 ![OpenAI](https://img.shields.io/badge/Model-GPT4o%2FDeepSeek-purple)
 
