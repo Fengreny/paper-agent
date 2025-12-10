@@ -1,4 +1,4 @@
-# 🧠 DeepResearch-Agent: 深度论文研读智能体
+# 🧠 Paper-Agent: 深度论文研读智能体
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-v0.1-green)
