@@ -3,13 +3,13 @@ import argparse
 from pathlib import Path
 from langgraph.graph import StateGraph, START, END
 
-# 导入我们之前定义的 Schema 和 Nodes
+# 导入定义的 Schema 和 Nodes
 from schema import AgentState
 from agent import reader_node, researcher_node, writer_node
 
 
 # ==========================================
-# 构建图 (跟之前一样)
+# 构建图 
 # ==========================================
 def build_graph():
     workflow = StateGraph(AgentState)
@@ -29,7 +29,7 @@ def build_graph():
 
 
 # ==========================================
-# 主程序 (融合了你的 CLI 逻辑)
+# 主程序 
 # ==========================================
 def main():
     # 1. 解析命令行参数
