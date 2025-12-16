@@ -16,7 +16,7 @@ llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)  # 或者你的 deepseek �
 
 
 # ==========================================
-# 1. Reader Node (升级版)
+# 1. Reader Node 
 # ==========================================
 def reader_node(state: AgentState):
     file_path = state["file_path"]
@@ -62,7 +62,7 @@ def reader_node(state: AgentState):
 
 
 # ==========================================
-# 2. Researcher Node (升级版)
+# 2. Researcher Node
 # ==========================================
 def researcher_node(state: AgentState):
     concepts = state["key_concepts"]
@@ -85,9 +85,9 @@ def researcher_node(state: AgentState):
 
 
 # ==========================================
-# 3. Writer Node (重磅升级)
+# 3. Writer Node
 # ==========================================
-# agent.py (仅修改 writer_node)
+
 
 def writer_node(state: AgentState):
     pages = state["pdf_pages"]
@@ -105,7 +105,7 @@ def writer_node(state: AgentState):
 
     writer_prompt = ChatPromptTemplate.from_template(
         """
-        你是一个高级技术撰稿人。请根据提供的论文内容和联网搜索补充的知识，撰写一份深度技术报告。
+        你是一个高级算法工程师专家。请根据提供的论文内容和联网搜索补充的知识，撰写一份深度技术报告。
 
         【输入素材】
         1. 论文全文（带页码标记）：
